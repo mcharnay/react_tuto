@@ -1,0 +1,96 @@
+Hacer una api con expreese, subir un poryecto a una oa´gina web, usar mongo db que es gratis.
+
+
+1-. Instalar nodejs
+
+2-. Actualizar en npm
+npm install -g npm@latest
+
+2.1.- ver versión de npm
+npm -- version
+
+3-. Borrar Caché del npm
+npm cache clean --force
+
+4-.Instalar interprete de consola (CLI) que permite instalar react.
+npm install -g create-react-app
+
+4-.Saber versión de react instalado
+4.1-.npm view react version
+
+5-. Crear el proyecto
+create-react-app NombreDeMiProyecto
+
+6-. Iniciar servidor
+npm start
+
+
+=======================================================================================================
+Estructura general del proyecto:
+
+readme.md : Acá hay documentación y enlacs del proyecto.
+
+package.json : NOMBRE DEL PROYECTO, versión, script a usar (son atajos de npm y se puede usar para ciertar cosas.)
+
+packagelog se crea cuando creamos el proyecto.
+
+gitignore: fichero de git con ignores de archivos. En este archivo se está ignorando el node_modules, pero en el servidor hay que hacer 
+npm install para que funcione el proyecto.
+
+serviceWorker.js : Otorga que la aplicación funcione también como PWA
+
+logo.svg : es el que sale en la página.
+
+dentro de src...
+SRC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+index.js : Carga todo lo necesario e importante de react
+
+app.js : es un componente que tiene todo lo que se carga en la página principal.
+
+dentro de public...
+PUBLIC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+index.html : trae el html de la página.
+
+==========================================================================================================
+
+Primero pasos con JSX
+
+JSX se usa para react, js sólo, no. ENtonces, jsx es la combinación entre html + js.
+Si se quiere escribir código puro en js, hay que ponerlo entre {}, y sin ;
+
+
+==========================================================================================================
+
+CREAR COMPONENTES DESDE 0
+
+Se crean estas carpetas dentro del src
+
+src
+    > components
+    > assets
+        > css 
+        > images
+
+    * dentro de images meter el logo.svg
+
+
+    dentro de css se mete:
+        css
+            > App.css
+            > Index.css
+
+* En App.js cambar los imports
+* En index.js cambiar los imports
+
+*Recordar hacer ./ ya que no toma si está sólo con punto*
+
+
+
+CREAR UN COMPONENTE DENTRO DE CARPETA COMPONENTS llamado MiComponente.js y ahí dentro tiene una estructura fija.
+
+
+
+
+
